@@ -2,21 +2,21 @@ package game_api.weapons;
 
 import game_api.Pirate;
 
-public class Sword extends Weapon {
+public class Axe extends Weapon {
 
-    public Sword(int damage) {
+    public Axe(int damage) {
         super(damage);
     }
 
     @Override
     public String toString() {
-        return "Sword[" + getDamage() + "dmg]";
+        return "Axe[" + getDamage() + "dmg]";
     }
 
+    @Override
     public int doDamage(Pirate pirate) {
         if(pirate != null) {
-            int newDamage = getDamage() - pirate.getDefence();
-            return newDamage;
+            return getDamage();
         }
         return -1;
     }
