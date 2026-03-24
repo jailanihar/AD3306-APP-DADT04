@@ -1,0 +1,26 @@
+Label {
+    -fx-font-size: 24px;
+}
+
+TextField {
+    -fx-font-size: 24px;
+    -fx-min-width: 80px;
+    -fx-max-width: 80px;
+}
+
+Button {
+    -fx-font-size: 24px;
+    -fx-min-width: 150px;
+    -fx-max-width: 150px;
+}
+
+.title-label {
+    -fx-underline: true;
+    -fx-font-weight: bolder;
+}
+
+#resultLabel {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}

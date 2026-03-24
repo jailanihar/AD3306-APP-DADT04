@@ -1,0 +1,20 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" stylesheets="@FxmlUi.css"
+    fx:controller="gui.FxmlUiController">
+    <children>
+        <Label text="Addition Quiz" styleClass="title-label" />
+        <HBox>
+            <children>
+                <Label fx:id="num1Label" />
+                <Label text="+"/>
+                <Label fx:id="num2Label" />
+                <Label text="="/>
+                <TextField fx:id="answerTextField"/>
+            </children>
+        </HBox>
+        <Button text="Answer" onAction="#answer" />
+        <Label fx:id="resultLabel" />
+    </children>
+</VBox>
