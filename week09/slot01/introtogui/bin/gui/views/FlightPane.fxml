@@ -1,0 +1,11 @@
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane
+    xmlns:fx="http://javafx.com/fxml"
+    fx:id="flightPane"
+    fx:controller="gui.controllers.FlightPaneController"
+    stylesheets="@Main.css"
+>
+    <fx:include fx:id="birdPane" source="BirdPane.fxml" />
+</Pane>
